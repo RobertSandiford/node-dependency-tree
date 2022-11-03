@@ -43,7 +43,7 @@
     "debug": "^4.3.1",
     "precinct": "^8.0.0",
     "sxy-filing-cabinet": "^3.3.2",
-    "sxy-package-investigator": "^0.1.1",
+    "sxy-package-investigator": "^0.1.2",
     "typescript": "^3.9.7"
   },
   "devDependencies": {
