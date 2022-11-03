@@ -1,4 +1,6 @@
-### dependency-tree [![npm](http://img.shields.io/npm/v/dependency-tree.svg)](https://npmjs.org/package/dependency-tree) [![npm](http://img.shields.io/npm/dm/dependency-tree.svg)](https://npmjs.org/package/dependency-tree)
+> Fork of dependency-tree
+
+### dependency-tree 
 
 > Get the dependency tree of a module
 

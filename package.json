@@ -1,5 +1,5 @@
 {
-  "name": "dependency-tree",
+  "name": "sxy-dependency-tree",
   "version": "8.1.2",
   "description": "Get the dependency tree of a module",
   "main": "index.js",
