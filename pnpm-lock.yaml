@@ -12,16 +12,16 @@ specifiers:
   resolve: ^1.19.0
   rewire: ^5.0.0
   sinon: ^9.2.1
-  sxy-filing-cabinet: ^3.3.2
-  sxy-package-investigator: ^0.1.1
+  sxy-filing-cabinet: ^3.3.3
+  sxy-package-investigator: ^0.1.3
   typescript: ^3.9.7
 
 dependencies:
   commander: 2.20.3
   debug: 4.3.4
   precinct: 8.3.1
-  sxy-filing-cabinet: 3.3.2
-  sxy-package-investigator: 0.1.1
+  sxy-filing-cabinet: 3.3.3
+  sxy-package-investigator: 0.1.3
   typescript: 3.9.10
 
 devDependencies:
@@ -2406,8 +2406,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /sxy-filing-cabinet/3.3.2:
-    resolution: {integrity: sha512-3tMIUDEHojw8xNR5z/tHc5Ao9SG9Qcgh+4EFwyYBYV1NXKWPqc23HwJuC8DsGUXK/9XG/YktSRSYfLLbNhSQmg==}
+  /sxy-filing-cabinet/3.3.3:
+    resolution: {integrity: sha512-8+VSUTCUmdc4mjLLFCyBDCaZhbZwO1AeIZtpzqLaoQ2koszceJ1y/P1pTpg7YEYux+HtkKeVY7bU/HeDSU7eeQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dependencies:
@@ -2428,8 +2428,8 @@ packages:
       - supports-color
     dev: false
 
-  /sxy-package-investigator/0.1.1:
-    resolution: {integrity: sha512-Ts0vTi+YXCwKfqrXDohX4IOcmw8sg5+4fHX5OUliV8mzBNDjJso8FVE/RvWPC/nK9m3qGrvfcWM/ydDxZXxeSQ==}
+  /sxy-package-investigator/0.1.3:
+    resolution: {integrity: sha512-RRAKWIoxjnWhNuQv0dHbQlDpA44iG7Whl5ODhxlTBE0g0ygdLzdI9TqVWVJC1d9rqG8OVZM9pl9rKFAY8z0gpg==}
     dependencies:
       find-package-json: 1.2.0
       slash: 4.0.0
