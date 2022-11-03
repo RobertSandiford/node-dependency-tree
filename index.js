@@ -169,8 +169,7 @@ function traverse(config) {
     const d = dependencies[i];
     const localConfig = config.clone();
     localConfig.filename = d;
-    const dir = findPackageDirectory(d)
-    console.log('dir', dir)
+    localConfig.directory = findPackageDirectory(localConfig.filename)
 
     if (localConfig.isListForm) {
       for (let item of traverse(localConfig)) {
