@@ -5,6 +5,7 @@ const path = require('path');
 const fs = require('fs');
 const cabinet = require('sxy-filing-cabinet');
 const debug = require('debug')('tree');
+const { findPackageDirectory } = require('sxy-package-investigator')
 const Config = require('./lib/Config');
 
 /**
@@ -168,6 +169,8 @@ function traverse(config) {
     const d = dependencies[i];
     const localConfig = config.clone();
     localConfig.filename = d;
+    const dir = findPackageDirectory(d)
+    console.log('dir', dir)
 
     if (localConfig.isListForm) {
       for (let item of traverse(localConfig)) {

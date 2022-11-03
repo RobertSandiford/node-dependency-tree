@@ -4,7 +4,6 @@ specifiers:
   commander: ^2.20.3
   debug: ^4.3.1
   esm: ^3.2.25
-  filing-cabinet: ^3.0.1
   jscs: ^3.0.7
   jscs-preset-mrjoelkemp: ~2.0.0
   mocha: ^8.2.1
@@ -13,13 +12,16 @@ specifiers:
   resolve: ^1.19.0
   rewire: ^5.0.0
   sinon: ^9.2.1
+  sxy-filing-cabinet: ^3.3.2
+  sxy-package-investigator: ^0.1.1
   typescript: ^3.9.7
 
 dependencies:
   commander: 2.20.3
   debug: 4.3.4
-  filing-cabinet: 3.3.0
   precinct: 8.3.1
+  sxy-filing-cabinet: 3.3.2
+  sxy-package-investigator: 0.1.1
   typescript: 3.9.10
 
 devDependencies:
@@ -959,33 +961,15 @@ packages:
       flat-cache: 2.0.1
     dev: true
 
-  /filing-cabinet/3.3.0:
-    resolution: {integrity: sha512-Tnbpbme1ONaHXV5DGcw0OFpcfP3p2itRf5VXO1bguBXdIewDbK6ZFBK//DGKM0BuCzaQLQNY4f5gljzxY1VCUw==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
-    dependencies:
-      app-module-path: 2.2.0
-      commander: 2.20.3
-      debug: 4.3.4
-      enhanced-resolve: 5.10.0
-      is-relative-path: 1.0.2
-      module-definition: 3.4.0
-      module-lookup-amd: 7.0.1
-      resolve: 1.22.1
-      resolve-dependency-path: 2.0.0
-      sass-lookup: 3.0.0
-      stylus-lookup: 3.0.2
-      tsconfig-paths: 3.14.1
-      typescript: 3.9.10
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
   /fill-range/7.0.1:
     resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
     engines: {node: '>=8'}
     dependencies:
       to-regex-range: 5.0.1
+
+  /find-package-json/1.2.0:
+    resolution: {integrity: sha512-+SOGcLGYDJHtyqHd87ysBhmaeQ95oWspDKnMXBrnQ9Eq4OkLNqejgoaD8xVWu6GPa0B6roa6KinCMEMcVeqONw==}
+    dev: false
 
   /find-up/5.0.0:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
@@ -2234,6 +2218,11 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
+  /slash/4.0.0:
+    resolution: {integrity: sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==}
+    engines: {node: '>=12'}
+    dev: false
+
   /slice-ansi/2.1.0:
     resolution: {integrity: sha512-Qu+VC3EwYLldKa1fCxuuvULvSJOKEgk9pi8dZeCVK7TqBfUNTH4sFkk4joj8afVSfAYgJoSOetjx9QWOJ5mYoQ==}
     engines: {node: '>=6'}
@@ -2416,6 +2405,35 @@ packages:
   /supports-preserve-symlinks-flag/1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  /sxy-filing-cabinet/3.3.2:
+    resolution: {integrity: sha512-3tMIUDEHojw8xNR5z/tHc5Ao9SG9Qcgh+4EFwyYBYV1NXKWPqc23HwJuC8DsGUXK/9XG/YktSRSYfLLbNhSQmg==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dependencies:
+      app-module-path: 2.2.0
+      commander: 2.20.3
+      debug: 4.3.4
+      enhanced-resolve: 5.10.0
+      is-relative-path: 1.0.2
+      module-definition: 3.4.0
+      module-lookup-amd: 7.0.1
+      resolve: 1.22.1
+      resolve-dependency-path: 2.0.0
+      sass-lookup: 3.0.0
+      stylus-lookup: 3.0.2
+      tsconfig-paths: 3.14.1
+      typescript: 3.9.10
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /sxy-package-investigator/0.1.1:
+    resolution: {integrity: sha512-Ts0vTi+YXCwKfqrXDohX4IOcmw8sg5+4fHX5OUliV8mzBNDjJso8FVE/RvWPC/nK9m3qGrvfcWM/ydDxZXxeSQ==}
+    dependencies:
+      find-package-json: 1.2.0
+      slash: 4.0.0
+    dev: false
 
   /table/5.4.6:
     resolution: {integrity: sha512-wmEc8m4fjnob4gt5riFRtTu/6+4rSe12TpAELNSqHMfF3IqnA+CH37USM6/YR3qRZv7e56kAEAtd6nKZaxe0Ug==}

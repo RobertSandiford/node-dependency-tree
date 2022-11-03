@@ -41,8 +41,9 @@
   "dependencies": {
     "commander": "^2.20.3",
     "debug": "^4.3.1",
-    "sxy-filing-cabinet": "^3.3.2",
     "precinct": "^8.0.0",
+    "sxy-filing-cabinet": "^3.3.2",
+    "sxy-package-investigator": "^0.1.1",
     "typescript": "^3.9.7"
   },
   "devDependencies": {
