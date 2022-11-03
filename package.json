@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mrjoelkemp/node-dependency-tree.git"
+    "url": "git@github.com:RobertSandiford/node-dependency-tree.git"
   },
   "keywords": [
     "dependency",
@@ -41,7 +41,7 @@
   "dependencies": {
     "commander": "^2.20.3",
     "debug": "^4.3.1",
-    "filing-cabinet": "^3.0.1",
+    "sxy-filing-cabinet": "^3.3.1",
     "precinct": "^8.0.0",
     "typescript": "^3.9.7"
   },

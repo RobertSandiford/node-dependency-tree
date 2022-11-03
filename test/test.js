@@ -839,10 +839,10 @@ describe('dependencyTree', function() {
           filename: `${__dirname}/example/webpack/${name}.js`,
           directory: this._root,
           webpackConfig: this._webpackConfig,
-          filter: filename => filename.indexOf('filing-cabinet') !== -1
+          filter: filename => filename.indexOf('sxy-filing-cabinet') !== -1
         });
 
-        assert.ok(results.some(filename => filename.indexOf('node_modules/filing-cabinet') !== -1));
+        assert.ok(results.some(filename => filename.indexOf('node_modules/sxy-filing-cabinet') !== -1));
       };
     });
 

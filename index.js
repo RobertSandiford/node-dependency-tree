@@ -3,7 +3,7 @@
 const precinct = require('precinct');
 const path = require('path');
 const fs = require('fs');
-const cabinet = require('filing-cabinet');
+const cabinet = require('sxy-filing-cabinet');
 const debug = require('debug')('tree');
 const Config = require('./lib/Config');
 
